@@ -3,4 +3,4 @@
 
 '''
 
-print('Hello World') # ການຄອມເມັ້ນ
+print('Hello World')  # ການຄອມເມັ້ນ
