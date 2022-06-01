@@ -8,6 +8,11 @@
 '''
 if boolean expression:
     statement
+
+if ແທ້:
+    ເຮັດຫຍັງ
+else:
+    ເຮັດຫຍັງ
 '''
 age = int(input('Please fill your age : '))
 name = 'hery'
@@ -16,7 +21,12 @@ name = 'hery'
 # print(name=='hery')
 
 if age >= 15:
-    print('ຄຳນຳໜ້າເປັນ ທ້າວ/ນາງ')
-    print('ຈົບໂປຣແກຣມທາງໃນ if')
+    print('ເປັນໄວລູ້ນ')
+elif age >= 20:
+    print('ເປັນຜູ້ໃຫຍ່')
+elif age >= 30:
+    print('ເປັນຜູ້ໃຫຍ່ໄວເຮັດວຽກ')
+else:
+    print('ເປັນເດັກນ້ອຍ')
 
 print('ຈົບໂປຣແກຣມ')
