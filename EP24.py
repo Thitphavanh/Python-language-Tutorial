@@ -1,8 +1,11 @@
 # ແປງອຸນຫະພູມ
 
+from numpy import double
+
+
 temp = input('ປ້ອນອຸນຫະພູມ (ອົງສາ) : ')
 
-degree = int(temp[:-1])
+degree = double(temp[:-1])
 unit = temp[-1].upper()
 
 
