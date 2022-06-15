@@ -6,6 +6,7 @@ while expression:
 '''
 i = 1
 
-while i <= 3:
+while i <= 10:
     print('ຮອບທີ ', i)
     i += 1
+print('End Program')
