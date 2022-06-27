@@ -15,8 +15,9 @@ allList = [4, 'Blue', True, 0.5, -10]
 # name = list(['Red', 'Blue', 'Yellow', 'Green'])
 
 # ສະແດງຜົນ
-print(type(name))
-print(allList)
-print(number)
+# print(type(name))
+# print(allList)
+# print(number)
 
 # ເຂົ້າເຖິງຂໍ້ມູນຂອງ List
+print(allList[2:])
