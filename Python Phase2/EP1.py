@@ -12,4 +12,11 @@ name = ['Red', 'Blue', 'Yellow', 'Green']
 allList = [4, 'Blue', True, 0.5, -10]
 
 # constructor
-name = list(['Red', 'Blue', 'Yellow', 'Green'])
+# name = list(['Red', 'Blue', 'Yellow', 'Green'])
+
+# ສະແດງຜົນ
+print(type(name))
+print(allList)
+print(number)
+
+# ເຂົ້າເຖິງຂໍ້ມູນຂອງ List
