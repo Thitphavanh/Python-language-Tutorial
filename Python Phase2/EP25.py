@@ -1,8 +1,8 @@
-# ການຄົ້ນຫາ ແລະ ນັບຈຳນວນໂຕອັກສອນໃນສະມາຊິກ
+# tuple
+tups = tuple((1, 2, 3, 4, 'Hery', 'cat', 'dog'))
+lists = list([1, 2, 3, 4, 'Hery', 'cat', 'dog', True, 3.14])
 
-messages = ['aa', 'aab', 'cba', 'bba', 'aba', 'cca', 'aaa', 'cab', 'aaaab']
-result = []
-
-for item in messages:
-    result.append(item.count('a'))
-print(result)
+lists[0] = 'Savannakhet'
+tups[0] = 'Savannakhet'
+print(tups)
+print(lists)
