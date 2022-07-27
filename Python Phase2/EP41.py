@@ -34,6 +34,11 @@ print(fruit)
 
 # remove discard
 fruit.discard('ຜັກຂະແຍງ')
+fruit.add('ຜັກຂະແຍງແຫ້ງ')
+
+# remove all
+# fruit.clear()
+del fruit
 print(fruit)
 
 
