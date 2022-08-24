@@ -1,4 +1,4 @@
-# Function
+# Function Assignment ເລກຄູ່ / ເລກຄີກ
 
 def searchNumber(number):
     if number % 2 == 0:
