@@ -13,10 +13,16 @@
 #     print(sum)
 
 
-def add(*args):
+# def add(*args):
+#     sum = 0
+#     for i in range(len(args)):
+#         sum += args[i]
+#     print(sum)
+    
+def add(*number):
     sum = 0
-    for i in range(len(args)):
-        sum += args[i]
+    for i in range(len(number)):
+        sum += number[i]
     print(sum)
 
 
