@@ -1,9 +1,12 @@
 # Function ເອີ້ນ Function
 
+# def equal(x, y, z):
+#     a = compareMax(x, y)
+#     m = compareMax(a, z)
+#     return m
+
 def equal(x, y, z):
-    a = compareMax(x, y)
-    m = compareMax(a, z)
-    return m
+    return compareMax(compareMax(x, y), z)
 
 
 def compareMax(x, y):
