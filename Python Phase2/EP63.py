@@ -1,7 +1,10 @@
 # Pass
 
 def getName(name):
-    print('Hi,', name)
+    if name == 'Hery':
+        print('Hi')
+    else:
+        print("I'm sorry")
     
 def getLastName():
     pass
