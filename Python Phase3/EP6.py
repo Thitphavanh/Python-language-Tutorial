@@ -15,11 +15,8 @@ try:
     result = number1/number2
     print(result)
 
-except ValueError:
-    print('ຕ້ອງປ້ອນໂຕເລກເທົ່ານັ້ນເຖິງຈະຫານໄດ້')
+except Exception as e:
+    print(e)
 
-except ZeroDivisionError:
-    print('ບໍ່ສາມາດຫານດ້ວຍເລກສູນ')
-
-except TypeError:
-    print('ຊະນິດຂໍ້ມູນບໍ່ຕົງກັນ')
+finally:
+    print('ເຮັດວຽກຕໍ່ໄປ......')

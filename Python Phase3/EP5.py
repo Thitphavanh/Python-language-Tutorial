@@ -14,12 +14,11 @@ try:
     number2 = int(input('ປ້ອນໂຕເລກ 2 : '))
     result = number1/number2
     print(result)
+    print('ໂອນເງິນ')
+except Exception as e:
+    print(e)
+    
+else:
+    print('ໂອນເງິນສຳເລັດ')
 
-except ValueError:
-    print('ຕ້ອງປ້ອນໂຕເລກເທົ່ານັ້ນເຖິງຈະຫານໄດ້')
 
-except ZeroDivisionError:
-    print('ບໍ່ສາມາດຫານດ້ວຍເລກສູນ')
-
-except TypeError:
-    print('ຊະນິດຂໍ້ມູນບໍ່ຕົງກັນ')
