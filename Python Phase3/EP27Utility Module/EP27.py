@@ -23,10 +23,10 @@ print(result.strftime('%j'))
 # date
 print(result.strftime('%a'))  # ແບບຫຍໍ້
 print(result.strftime('%A'))  # ແບບເຕັມ
-print(result.strftime('%w')) # 0 = Sunday
-print(result.strftime('%d')) # ວັນທີ
-print(result.strftime('%b')) # ເດືອນແບບຫຍໍ້
-print(result.strftime('%B')) # ເດືອນແບບເຕັມ
+print(result.strftime('%w'))  # 0 = Sunday
+print(result.strftime('%d'))  # ວັນທີ
+print(result.strftime('%b'))  # ເດືອນແບບຫຍໍ້
+print(result.strftime('%B'))  # ເດືອນແບບເຕັມ
 print(result.strftime("%d %A %B %Y"))
 
 # ວ/ດ/ປ
